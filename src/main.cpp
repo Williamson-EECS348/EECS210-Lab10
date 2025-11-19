@@ -5,12 +5,7 @@
 
 int main() {
     Matrix mat;
-    mat.mat = {
-        {'*','6','3','*'},
-        {'6','*','4','1'},
-        {'3','4','*','1'},
-        {'*','1','1','*'}
-    };
+    mat.getMatrix();
 
     std::cout << "Got:\n";
     mat.printAdjacency();
